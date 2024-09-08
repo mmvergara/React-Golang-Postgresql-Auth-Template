@@ -62,7 +62,7 @@ connect to db
 make db
 ```
 
-`./internal/database/schema.sql`
+execute this sql query`./internal/database/schema.sql` in your database
 
 ```sql
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
