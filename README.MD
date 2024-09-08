@@ -49,7 +49,7 @@ DB_SCHEMA=public
 ```makefile
 db:
 	docker compose up -d;
-						   # default is "gpa" as specified in .env
+  # default is "gpa" as specified in .env
 	psql -h localhost -p 5432 -U root -d gpa;
 
 ```
